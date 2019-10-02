@@ -28,6 +28,4 @@ for line in fileinput.input(input_file_to_change):
       if "$1" == "-f2":
         text_in_columns[0]=re.sub(r'ENSG\d*.', 'gene_name \"(.*?)\";', text_in_columns[0].rreplace(r'gene_name \"(.*?)\";'))
         print Lookup_geneID[text_in_columns[0]] + "\t" + text_in_columns[1] + "\t" + text_in_columns[2] + "\t" + text_in_columns[4]
-:wq
 
-./ensg2hugo.py ~/data/Homo_sapiens.GRCh37.75.gtf ~/data/expression_analysis.csv -f2 > ~/data/expression_analysis.hugo.csv
