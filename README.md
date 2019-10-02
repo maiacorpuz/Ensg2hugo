@@ -22,6 +22,8 @@ _Execute:_
 
 gunzip Homo_sapiens.GRCh37.75.gtf.gz #unzip file using gunzip command
 
+_This should allow you to work to and from the .gtf file now. You may create a separate directory to create a program for running a "search and replace" command of python to modify the .gtf file._
+
 cd ..
 
 mkdir projects
