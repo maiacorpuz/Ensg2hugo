@@ -31,3 +31,5 @@ mkdir projects
 cd projects
 
 vim ensg2hugo.py
+
+_You may find the executable program as a file named Ensg2hugo.py listed above in this repository._
