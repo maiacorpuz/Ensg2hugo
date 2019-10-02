@@ -12,13 +12,13 @@ To do so,
 
 mkdir data
 
-Since you're still in the home directory you can execute the following to move the .gtf file:
+_Since you're still in the home directory you can execute the following to move the .gtf file:_
 
 mv Homo_sapiens.GRCh37.75.gtf.gz ~/data
 
-Now let's unzip the file to make all data available to read.
+**Now** let's unzip the file to make all data available to read.
 
-Execute:
+_Execute:_
 
 gunzip Homo_sapiens.GRCh37.75.gtf.gz #unzip file using gunzip command
 
