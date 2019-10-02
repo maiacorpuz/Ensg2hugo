@@ -1,6 +1,3 @@
-mkdir projects
-cd projects
-vim ensg2hugo.py
 #!/usr/bin/env python
 import sys
 import fileinput
