@@ -1,6 +1,6 @@
 # Ensg2hugo
 # installable git clone for working with .gtf file
-Hello there! To begin, log on to **trgn.usc.edu server.**
+_Hello there! To begin, log on to **trgn.usc.edu server.**_
 
 _Now that you're in the home directory on TRGN, execute the following:_ 
 
