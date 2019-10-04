@@ -2,13 +2,13 @@
 # installable git clone for working with .gtf file
 Hello there! To begin, log on to **trgn.usc.edu server.**
 
-Now that you're in the home directory on TRGN, execute the following: 
+_Now that you're in the home directory on TRGN, execute the following:_ 
 
 git clone http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens
 
-You'll need to move the .gtf file to a new directory before moving further.
+_You'll need to move the .gtf file to a new directory before moving further._
 
-To do so,
+_To do so,_
 
 mkdir data
 
@@ -16,7 +16,7 @@ _Since you're still in the home directory you can execute the following to move 
 
 mv Homo_sapiens.GRCh37.75.gtf.gz ~/data
 
-**Now** let's unzip the file to make all data available to read.
+_**Now** let's unzip the file to make all data available to read._
 
 _Execute:_
 
